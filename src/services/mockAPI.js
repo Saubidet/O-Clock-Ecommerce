@@ -91,8 +91,6 @@ const data = [
     },
   ];
   
-  // ---ASYNC---
-  // obtener todos los items
   export default function getItems() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -101,7 +99,6 @@ const data = [
     });
   }
   
-  // filtrar items por categoria
   export function getItemsByCategory(cat) {
     return new Promise((resolve, reject) => {
       let itemFind = data.filter((item) => {
@@ -114,7 +111,6 @@ const data = [
     });
   }
   
-  // obtener solo un item
   export function getSingleItem(idItem) {
     return new Promise((resolve, reject) => {
       let itemFind = data.find((item) => {
