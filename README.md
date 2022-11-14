@@ -1,5 +1,8 @@
 # O´Clock
 
+Tienda de relojes de mujeres, relojes de hombres y relojes smart.
+Encontra tu reloj en O´Clock.
+
 
 ### Como instalar
 - git clone https://github.com/Saubidet/O-Clock-Ecommerce.git
@@ -22,6 +25,6 @@ Esta aplicación fue desarrollada por Julian Saubidet como proyecto final del cu
 
 ### URL 
 
-La aplicación se puede probar en 
+La aplicación se puede probar en https://oclock-relojes.netlify.app/
 
 
